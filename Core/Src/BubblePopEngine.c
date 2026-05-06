@@ -1020,9 +1020,9 @@ void BubblePopEngine_Draw(BubblePopEngine_t *game) {
 
     if (game->state == BP_STATE_START) {
         bp_text("PLANET POP", 35, 70, BP_CYAN, 2);
-        bp_text("Press blue button", 85, 105, BP_WHITE, 1);
+        bp_text("Joystick button = shoot", 85, 105, BP_WHITE, 1);
         bp_text("Joystick = aim", 85, 122, BP_WHITE, 1);
-        bp_text("PC8 = swap ball", 85, 139, BP_WHITE, 1);
+        bp_text("Board button = swap ball", 85, 139, BP_WHITE, 1);
 
         bp_present();
         return;
